@@ -25,3 +25,13 @@ while(i < 5){
 }
 
 console.log("END", i);
+
+// better use of while 
+let count = 10;
+    while( count > 0){
+        console.log(count);
+        count = count -1;
+
+}
+
+console.log("BLAST OFF!!!");
