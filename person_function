@@ -1,0 +1,18 @@
+// person builder function
+
+function Person(first, last, age){
+    return { 
+        first: first,
+        last: last,
+        age:age,
+    }; // return literal object
+}
+
+personObject = Person( "Imane", "Key", 28)
+
+console.log(`
+        FIRST: ${personObject.first}
+        LAST: ${personObject.last}
+        AGE: ${personObject.age}
+
+`);
