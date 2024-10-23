@@ -31,3 +31,6 @@ spriteArray.push(Sprite("Venom3", "parasite", Position(20, 15)));
 for (let i = 0; i < spriteArray.length; i++){
     console.log(spriteArray)
 }
+function printVampire(){
+    for(let i = 0)
+}
